@@ -1,6 +1,6 @@
 <div align="center">
 
-# Резо Ачба
+#
 
 ### Full-Stack Developer · Backend · DevOps · Infrastructure
 
@@ -226,23 +226,6 @@ Maintenance & Optimization
 
 ---
 
-## 📊 What I Bring to a Team
-
-| Area | Experience |
-|---|---|
-| Full-Stack Development | ⭐⭐⭐⭐⭐ |
-| Backend Development | ⭐⭐⭐⭐⭐ |
-| PostgreSQL | ⭐⭐⭐⭐⭐ |
-| Docker / Containers | ⭐⭐⭐⭐⭐ |
-| Linux Administration | ⭐⭐⭐⭐⭐ |
-| DevOps | ⭐⭐⭐⭐☆ |
-| Frontend | ⭐⭐⭐⭐☆ |
-| Networking | ⭐⭐⭐⭐☆ |
-| Security | ⭐⭐⭐⭐☆ |
-| CI/CD | ⭐⭐⭐⭐☆ |
-
----
-
 ## 🎓 Education
 
 **Академия ФСО России**  
@@ -278,7 +261,5 @@ https://github.com/raz0rxgod
 <div align="center">
 
 ### Build systems that are reliable, maintainable and production-ready.
-
-**© 2026 Rezo Achba**
 
 </div>
