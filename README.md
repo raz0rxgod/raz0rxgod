@@ -255,6 +255,8 @@ Maintenance & Optimization
 
 **GitHub:**  
 https://github.com/raz0rxgod
+telegram @koksedram / @shisuiteleport
+
 
 ---
 
