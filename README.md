@@ -141,6 +141,17 @@ https://github.com/raz0rxgod/ghostmarket
 https://github.com/raz0rxgod/rutoken-login-form
 
 ---
+### 🛂 Accreditation Portal
+
+Full-stack портал электронной аккредитации: групповые заявки, чат заявитель↔администрация,
+генерация именной карты с QR (PDF), верификация QR на пунктах пропуска, аналитика.
+
+**Stack:**
+
+`Next.js` · `TypeScript` · `NestJS` · `Prisma` · `PostgreSQL` · `Redis` · `MinIO` · `Docker Compose` · `Nginx`
+
+**Repository:**  
+<https://github.com/raz0rxgod/accreditation>
 
 ## 🏗️ Engineering Approach
 
