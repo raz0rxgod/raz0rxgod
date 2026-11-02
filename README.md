@@ -1,278 +1,116 @@
+<!-- Profile README for github.com/raz0rxgod. Assets are stored in this repository. -->
 <div align="center">
-
-#
-
-### Full-Stack Developer · Backend · DevOps · Infrastructure
-
-**6+ лет практического опыта в разработке, автоматизации и эксплуатации IT-систем**
-
-[![GitHub](https://img.shields.io/badge/GitHub-raz0rxgod-181717?style=for-the-badge&logo=github)](https://github.com/raz0rxgod)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Expert-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#tech-stack)
-[![Python](https://img.shields.io/badge/Python-Backend-3776AB?style=for-the-badge&logo=python&logoColor=white)](#tech-stack)
-[![Docker](https://img.shields.io/badge/Docker-Production-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#devops--infrastructure)
-
+  <img src="assets/hero.png" width="100%" alt="raz0rxgod — Full-stack developer. Backend, DevOps, Infrastructure. 6+ лет опыта." />
+  <p><strong>Создаю веб-приложения и инфраструктуру, на которой они работают.</strong></p>
+  <p>TypeScript / Python · API и базы данных · Linux / Windows Server</p>
+  <p><a href="#projects">Проекты</a> &nbsp; / &nbsp; <a href="#stack">Стек</a> &nbsp; / &nbsp; <a href="#approach">Подход</a> &nbsp; / &nbsp; <a href="https://t.me/koksedram">Написать в Telegram ↗</a></p>
 </div>
 
----
-
-## 👋 About
-
-Я **Full-Stack разработчик** с опытом разработки веб-приложений, серверной инфраструктуры и автоматизации.
-
-Работаю на стыке **Backend / Frontend / DevOps**, поэтому рассматриваю продукт целиком: от проектирования архитектуры и структуры базы данных до контейнеризации, reverse proxy, мониторинга и развёртывания в production.
-
-Основной фокус — создавать системы, которые не только работают локально, но и могут быть **нормально развернуты, поддержаны и масштабированы**.
-
-> **Code → Architecture → Infrastructure → Production**
-
-### Что я умею
-
-- проектировать и разрабатывать backend-системы и REST API;
-- создавать современные web-интерфейсы;
-- проектировать структуры PostgreSQL и оптимизировать SQL;
-- разрабатывать сервисы с JWT-аутентификацией и разграничением ролей;
-- контейнеризировать приложения с Docker / Docker Compose;
-- настраивать Nginx, HTTPS и production-окружение;
-- автоматизировать рутинные и инфраструктурные задачи;
-- работать с Linux / Windows Server;
-- диагностировать проблемы на уровне приложения, базы данных и инфраструктуры;
-- поддерживать существующие системы и постепенно модернизировать legacy-код.
-
----
-
-## 🧰 Tech Stack
-
-### Backend
-
-`Python` `Django` `Django REST Framework` `Flask` `FastAPI`  
-`Node.js` `NestJS` `PHP` `Laravel` `Symfony`  
-`REST API` `GraphQL` `asyncio` `JWT` `OAuth`
-
-### Frontend
-
-`TypeScript` `JavaScript ES6+` `React` `Next.js` `Vue.js`  
-`HTML5` `CSS3` `Sass/SCSS` `Tailwind CSS` `Bootstrap`  
-`Vite` `Webpack` `Figma`
-
-### Databases
-
-`PostgreSQL` `MySQL` `MariaDB` `MS SQL`  
-`Redis` `MongoDB`
-
-Работаю с:
-
-- проектированием схем данных;
-- миграциями;
-- индексами;
-- транзакциями;
-- оптимизацией запросов;
-- `EXPLAIN ANALYZE`;
-- резервным копированием и восстановлением;
-- репликацией PostgreSQL;
-- ORM.
-
-### DevOps / Infrastructure
-
-`Docker` `Docker Compose` `Docker Swarm`  
-`Nginx` `Apache` `Gunicorn` `uWSGI`  
-`GitHub Actions` `GitLab CI` `Jenkins`  
-`Linux` `Ubuntu` `Debian` `CentOS` `Rocky Linux`  
-`Windows Server` `systemd` `cron` `Bash` `PowerShell`  
-`Prometheus` `Grafana` `Zabbix` `Netdata`
-
-### Networking & Security
-
-`TCP/IP` `NAT` `VLAN` `VPN`  
-`OpenVPN` `WireGuard`  
-`SSL/TLS` `Let's Encrypt`  
-`Fail2ban` `UFW` `iptables`  
-`OWASP Top 10`
-
-### Virtualization / Cloud
-
-`KVM/QEMU` `Proxmox` `VMware` `Hyper-V`  
-`AWS` `Google Cloud` `VPS`  
-`Terraform` `Ansible`
-
----
-
-## 🚀 Selected Projects
-
-### 👻 GhostMarket
-
-**Full-stack e-commerce platform**
-
-Production-oriented интернет-магазин с каталогом, фильтрацией, корзиной, заказами, избранным, личным кабинетом и административной панелью.
-
-**Stack:**
-
-`Next.js 15` · `React 19` · `TypeScript` · `NestJS` · `Prisma` · `PostgreSQL` · `Redis` · `MinIO` · `Docker Compose` · `Nginx`
-
-**Ключевые части:**
-
-- JWT authentication + refresh tokens;
-- RBAC с ролями `ADMIN / MANAGER / EDITOR / CUSTOMER`;
-- каталог с категориями, брендами и атрибутами;
-- корзина и оформление заказа;
-- загрузка и обработка изображений через Multer + Sharp;
-- административная панель;
-- PostgreSQL + Prisma;
-- Redis;
-- контейнеризация инфраструктуры;
-- reverse proxy через Nginx;
-- отдельные frontend / backend / infrastructure layers.
-
-**Repository:**  
-https://github.com/raz0rxgod/ghostmarket
-
----
-
-### 🔐 Rutoken Login Form
-
-Интеграция авторизации с использованием **Рутокен** и аппаратной криптографии.
-
-Проект демонстрирует работу с аппаратным ключевым носителем и построение формы аутентификации вокруг криптографического устройства.
-
-**Stack:**
-
-`Python` · `Rutoken` · `Cryptography` · `Authentication`
-
-**Repository:**  
-https://github.com/raz0rxgod/rutoken-login-form
-
----
-### 🛂 Accreditation Portal
-
-Full-stack портал электронной аккредитации: групповые заявки, чат заявитель↔администрация,
-генерация именной карты с QR (PDF), верификация QR на пунктах пропуска, аналитика.
-
-**Stack:**
-
-`Next.js` · `TypeScript` · `NestJS` · `Prisma` · `PostgreSQL` · `Redis` · `MinIO` · `Docker Compose` · `Nginx`
-
-**Repository:**  
-<https://github.com/raz0rxgod/accreditation>
-
-## 🏗️ Engineering Approach
-
-В разработке придерживаюсь нескольких принципов:
-
-### 01 — Архитектура прежде кода
-
-Перед реализацией определяю границы компонентов, API-контракты, структуру данных и точки интеграции.
-
-### 02 — Production-ready с самого начала
-
-Учитываю конфигурацию окружения, логирование, обработку ошибок, безопасность, Docker и процесс развёртывания ещё на этапе разработки.
-
-### 03 — Автоматизация
-
-Повторяющиеся операции должны выполняться автоматически: сборка, миграции, деплой, резервное копирование, обслуживание и мониторинг.
-
-### 04 — Безопасность
-
-Учитываю принцип минимальных привилегий, безопасное хранение секретов, HTTPS, контроль доступа, валидацию входных данных и типовые угрозы OWASP.
-
-### 05 — Наблюдаемость
-
-Для production-систем важен не только uptime, но и возможность быстро понять, **почему система работает неправильно**.
-
----
-
-## 🐳 Typical Production Architecture
-
-```text
-                         ┌─────────────────────┐
-                         │       Client        │
-                         │ Browser / Mobile    │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │       Nginx         │
-                         │ Reverse Proxy / TLS  │
-                         └──────────┬──────────┘
-                                    │
-                     ┌──────────────┴──────────────┐
-                     │                             │
-                     ▼                             ▼
-             ┌───────────────┐             ┌───────────────┐
-             │    Frontend   │             │    Backend    │
-             │ Next.js/React │             │ NestJS/Python │
-             └───────────────┘             └───────┬───────┘
-                                                   │
-                            ┌──────────────────────┼──────────────────────┐
-                            │                      │                      │
-                            ▼                      ▼                      ▼
-                     ┌────────────┐        ┌────────────┐        ┌────────────┐
-                     │ PostgreSQL │        │   Redis    │        │  S3/MinIO  │
-                     └────────────┘        └────────────┘        └────────────┘
-```
-
----
-
-## ⚙️ Development Workflow
-
-```text
-Idea
-  ↓
-Architecture
-  ↓
-API / Database Design
-  ↓
-Implementation
-  ↓
-Tests
-  ↓
-Docker
-  ↓
-CI/CD
-  ↓
-Deployment
-  ↓
-Monitoring
-  ↓
-Maintenance & Optimization
-```
-
----
-
-## 🎓 Education
-
-**Академия ФСО России**  
-Специальность: **«Инфокоммуникационные технологии и системы связи»**
-
-Высшее образование, 2026.
-
----
-
-## 📌 Currently
-
-Сейчас развиваюсь в направлении **production-grade Full-Stack разработки**, уделяя особое внимание:
-
-- распределённым и модульным backend-системам;
-- PostgreSQL и оптимизации работы с данными;
-- Docker и инфраструктуре;
-- безопасности приложений;
-- CI/CD;
-- масштабируемой архитектуре;
-- observability и эксплуатации production-систем.
-
----
-
-## 🤝 Contact
-
-Если вы хотите обсудить разработку проекта, архитектуру или техническую задачу:
-
-**GitHub:**  
-https://github.com/raz0rxgod
-telegram @koksedram / @shisuiteleport
-
-
----
+<h2>Разработка с пониманием эксплуатации</h2>
+
+<p>Я full-stack разработчик с <strong>6+ годами практического опыта</strong> в разработке, автоматизации и эксплуатации IT-систем. Работаю на стыке backend, frontend и инфраструктуры: проектирую API и структуру данных, создаю интерфейсы, настраиваю окружение и развёртывание.</p>
+
+<p>Мне интересны задачи, где нужно разобраться в системе целиком: от авторизации и бизнес-логики до reverse proxy, диагностики и поддержки legacy-кода.</p>
+
+<table>
+  <tr><th align="left">Разработка</th><th align="left">Данные</th><th align="left">Эксплуатация</th></tr>
+  <tr>
+    <td valign="top">REST API, интерфейсы, аутентификация, роли и интеграции</td>
+    <td valign="top">Схемы БД, миграции, индексы, транзакции и оптимизация SQL</td>
+    <td valign="top">Docker, Nginx, HTTPS, автоматизация и диагностика</td>
+  </tr>
+</table>
+
+<a id="projects"></a>
+<h2>Избранные проекты</h2>
+
+<a href="https://github.com/raz0rxgod/rutoken-login-form"><img src="assets/rutoken.png" width="100%" alt="01 / Rutoken Login — аппаратная аутентификация" /></a>
+
+<p><strong>Беспарольный вход в Django с USB-токеном Рутокен.</strong> Интеграция аппаратной криптографии в стандартный механизм аутентификации Django.</p>
+
+<ul>
+  <li>Challenge/response: носитель подписывает запрос, сервер проверяет подпись по сертификату X.509.</li>
+  <li>Закрытый ключ остаётся на устройстве; взаимодействие с ним идёт через браузерный плагин.</li>
+  <li>В README проекта описана проверка на реальном устройстве; протокол и нюансы интеграции разобраны в документации.</li>
+</ul>
+
+<p><code>Python</code> <code>Django</code> <code>X.509</code> <code>RSA / ECDSA</code> <code>Redis</code></p>
+<p><a href="https://github.com/raz0rxgod/rutoken-login-form"><strong>Код ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/raz0rxgod/rutoken-login-form/blob/main/docs/RUTOKEN_LOGIN.md">Протокол и интеграция</a></p>
+
+<a href="https://github.com/raz0rxgod/ghostmarket"><img src="assets/ghostmarket.png" width="100%" alt="02 / GhostMarket — e-commerce платформа" /></a>
+
+<p><strong>Интернет-магазин с каталогом, заказами и административной панелью.</strong> Проект объединяет клиентскую часть, backend и инфраструктуру развёртывания.</p>
+
+<ul>
+  <li>Каталог с категориями, брендами и атрибутами; корзина, избранное и оформление заказов.</li>
+  <li>JWT-аутентификация с refresh-токенами и ролями ADMIN / MANAGER / EDITOR / CUSTOMER.</li>
+  <li>Загрузка и обработка изображений через Multer + Sharp; PostgreSQL, Redis и S3-совместимое хранилище.</li>
+</ul>
+
+<p><code>Next.js</code> <code>React</code> <code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Docker</code></p>
+<p><a href="https://github.com/raz0rxgod/ghostmarket"><strong>Код ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/raz0rxgod/ghostmarket/blob/main/docs/PROJECT_STATUS.md">Технический статус</a> &nbsp; · &nbsp; <a href="https://github.com/raz0rxgod/ghostmarket/blob/main/docs/DEPLOY.md">Развёртывание</a></p>
+
+<a href="https://github.com/raz0rxgod/accreditation"><img src="assets/accreditation.png" width="100%" alt="03 / Accreditation — заявки, документы и QR-пропуска" /></a>
+
+<p><strong>Портал электронной аккредитации.</strong> Работа с групповыми заявками, документами участников и проверкой аккредитационных карт на пунктах пропуска.</p>
+
+<ul>
+  <li>Личный кабинет заявителя и рассмотрение заявок сотрудниками с разными ролями.</li>
+  <li>Чат заявителя с администрацией через REST / WebSocket.</li>
+  <li>Именные PDF-карты с QR-кодом, проверка QR и журнал сканирований.</li>
+</ul>
+
+<p><code>Next.js</code> <code>NestJS</code> <code>PostgreSQL</code> <code>WebSocket</code> <code>MinIO</code> <code>Docker</code></p>
+<p><a href="https://github.com/raz0rxgod/accreditation"><strong>Код ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/raz0rxgod/accreditation/blob/main/docs/PROJECT_STATUS.md">Технический статус</a> &nbsp; · &nbsp; <a href="https://github.com/raz0rxgod/accreditation/blob/main/docs/DEPLOY.md">Развёртывание</a></p>
+
+<a id="stack"></a>
+<h2>Технологии и инструменты</h2>
+
+<p><strong>Основной стек публичных проектов</strong></p>
+<table>
+  <tr><th align="left">Направление</th><th align="left">Технологии</th></tr>
+  <tr><td>Backend</td><td>TypeScript · Node.js · NestJS · Python · Django · REST API</td></tr>
+  <tr><td>Frontend</td><td>React · Next.js · JavaScript · HTML / CSS · Tailwind CSS</td></tr>
+  <tr><td>Данные и файлы</td><td>PostgreSQL · Prisma · Redis · MinIO / S3</td></tr>
+  <tr><td>Инфраструктура</td><td>Docker · Docker Compose · Nginx · Linux · Windows Server</td></tr>
+  <tr><td>Автоматизация</td><td>Bash · PowerShell · GitHub Actions · GitLab CI</td></tr>
+</table>
+
+<details>
+  <summary><strong>Дополнительный опыт: фреймворки, сети и инфраструктура</strong></summary>
+  <br />
+  <ul>
+    <li><strong>Разработка:</strong> FastAPI, Flask, PHP, Laravel, Symfony, Vue.js, GraphQL.</li>
+    <li><strong>Базы данных:</strong> MySQL / MariaDB, MS SQL, MongoDB; EXPLAIN ANALYZE, резервное копирование и восстановление.</li>
+    <li><strong>Серверы и наблюдаемость:</strong> Apache, Gunicorn, systemd, cron, Jenkins, Prometheus, Grafana, Zabbix, Netdata.</li>
+    <li><strong>Сети и защита:</strong> TCP/IP, NAT, VLAN, WireGuard, OpenVPN, TLS, Let's Encrypt, UFW, iptables, Fail2ban.</li>
+    <li><strong>Виртуализация и окружения:</strong> Proxmox, KVM / QEMU, VMware, Hyper-V, VPS, AWS, Google Cloud, Terraform, Ansible.</li>
+  </ul>
+</details>
+
+<a id="approach"></a>
+<h2>Как я подхожу к работе</h2>
+
+<ul>
+  <li><strong>Сначала границы системы.</strong> Определяю компоненты, API-контракты, модель данных и точки интеграции.</li>
+  <li><strong>Безопасность в реализации.</strong> Учитываю права доступа, валидацию, хранение секретов и обработку ошибок.</li>
+  <li><strong>Воспроизводимое окружение.</strong> Документирую конфигурацию, миграции и шаги развёртывания; автоматизирую повторяющиеся операции.</li>
+  <li><strong>Понятная эксплуатация.</strong> Продумываю логирование, мониторинг, резервное копирование и диагностику сбоев.</li>
+</ul>
+
+<p><img src="assets/architecture.png" width="100%" alt="Пример архитектуры: браузер → Nginx → приложение и API → PostgreSQL, Redis, S3 / MinIO" /></p>
+<p><sub>Пример структуры веб-приложения; конкретный состав сервисов зависит от задачи.</sub></p>
+
+<h2>Образование и текущий фокус</h2>
+
+<p><strong>Академия ФСО России</strong> · высшее образование, 2026<br />Инфокоммуникационные технологии и системы связи.</p>
+<p>Углубляю знания в модульных backend-системах, PostgreSQL, безопасности приложений, CI/CD и наблюдаемости.</p>
+
+<hr />
 
 <div align="center">
-
-### Build systems that are reliable, maintainable and production-ready.
-
+  <h2>Обсудим вашу задачу?</h2>
+  <p>Веб-приложения · API и интеграции · Автоматизация · Серверная инфраструктура</p>
+  <p><a href="https://t.me/koksedram"><strong>Telegram @koksedram ↗</strong></a> &nbsp; / &nbsp; <a href="https://t.me/shisuiteleport">@shisuiteleport</a> &nbsp; / &nbsp; <a href="https://github.com/raz0rxgod">GitHub</a></p>
+  <p><sub>BUILD → DEPLOY → OPERATE</sub></p>
 </div>
